@@ -1,0 +1,113 @@
+.container {
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.tags {
+  margin-bottom: 15px;
+}
+.tag {
+  display: inline-block;
+  background: var(--black-grey);
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.dates {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+.date1 {
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid var(--dark-violet);
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.3s ease;
+}
+.date1:hover {
+  background: var(--hover-violet);
+  color: white;
+}
+.date1.active {
+  background: var(--light-violet);
+  color: white;
+  font-weight: bold;
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+.select {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0 4px;
+  background: var(--white-grey);
+  border: 1px solid var(--dark-violet);
+  width: 150px;
+}
+.legend {
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.legend span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+.available {
+  background: var(--green);
+}
+.fast-filling {
+  background: var(--orange);
+}
+
+.theater {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.theater-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  cursor: pointer;
+}
+.features span {
+  margin-right: 10px;
+  font-size: 13px;
+  color: #555;
+}
+.shows {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.shows button {
+  padding: 6px 12px;
+  border: 1px solid var(--green);
+  background: white;
+  color: var(--green);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.shows button:hover {
+  background: var(--green);
+  color: white;
+}

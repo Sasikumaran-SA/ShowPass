@@ -1,0 +1,118 @@
+.slideshow-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.mySlides {
+  display: none;
+  justify-self: center;
+}
+.mySlides img {
+  vertical-align: middle;
+  width: 100%;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slide-prev,
+.slide-next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -20%;
+  color: var(--light-violet);
+  background-color: var(--light-yellow);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slide-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slide-prev:hover,
+.slide-next:hover {
+  background-color: var(--hover-violet);
+}
+.dot {
+  height: 3px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--black-grey);
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: var(--light-grey);
+}
+
+.recom-label {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 5px;
+}
+.next-page {
+  cursor: pointer;
+  margin-right: 2%;
+  color: var(--light-violet);
+  align-self: center;
+}
+.recom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+}
+.mov {
+  margin: 10px;
+  border-top: 0;
+  border-radius: 10px;
+  width: 18%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.mov-img {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.mov-img > img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+.mov-img > img:hover {
+  transform: scale(1.1);
+}
+.mov1 {
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+}
+.mov12 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.mov13 {
+  font-size: 14px;
+  color: var(--text-grey);
+  margin-left: 3%;
+}
+.btn3 {
+  background-color: var(--light-violet);
+  color: white;
+  font-size: 15px;
+  padding: 5px 20px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.sports {
+  display: flex;
+  background-color: var(--black-grey);
+}
+.filter-container {
+  flex: 7;
+  position: sticky;
+  top: 10px;
+  background-color: var(--dark-violet);
+  color: var(--white-grey);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 70px 1% 100px 10%;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+}
+.filter-text {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-yellow);
+}
+.filter {
+  background-color: var(--light-violet);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.filter > p {
+  padding-bottom: 20px;
+  color: var(--text-yellow);
+}
+.container {
+  display: flex;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container input {
+  cursor: pointer;
+  height: 19px;
+  width: 20px;
+  margin-right: 10px;
+}
+.sport-container {
+  background-color: white;
+  flex: 25;
+  padding: 20px 0 20px 0;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+.sport-container > *,
+.sport-container > a > * {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.text {
+  color: var(--dark-violet);
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.sport-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.box {
+  margin: 13px;
+  border-top: 0;
+  border-radius: 10px;
+  width: 29%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.box-img {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.box-img > img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+.box-img > img:hover {
+  transform: scale(1.1);
+}
+.box1 {
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+}
+.box12 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.box13 {
+  font-size: 15px;
+  color: var(--text-grey);
+  margin-left: 3%;
+}
+.btn3 {
+  background-color: var(--light-violet);
+  color: white;
+  font-size: 17px;
+  padding: 5px 20px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

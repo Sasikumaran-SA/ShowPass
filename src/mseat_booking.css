@@ -1,0 +1,152 @@
+.seat-container {
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+  background: #fff;
+}
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 20px ;
+  color: var(--light-violet);
+}
+.detail {
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+  width: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--hover-violet);
+}
+.text {
+  color: white;
+  margin: 20px ;
+}
+.subtitle {
+  margin: 20px ;
+  color: var(--light-violet);
+}
+.screen {
+  padding: 50px 100px;
+  border: 3px solid rgb(101, 101, 101);
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 150px;
+}
+.screen-label {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+.seat-row {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  flex-wrap: wrap;
+}
+.row-label {
+  width: 30px;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #555;
+}
+.seat-btn {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.seat-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.seat-btn.available {
+  background: #fff;
+  border-color: var(--green);
+  color: var(--green);
+}
+.seat-btn.selected {
+  background: #27ae60;
+  color: #fff;
+  border-color: #27ae60;
+}
+
+.seat-btn.booked {
+  background: #ccc;
+  color: #999;
+  cursor: not-allowed;
+  border-color: #aaa;
+}
+.gap {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+.summary-box {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid #eee;
+  text-align: center;
+  background: #fafafa;
+}
+.summary-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.book-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.book-btn:hover:not(:disabled) {
+  background: var(--green);
+}
+.book-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.legend {
+  margin: 20px 0;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+.legend-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.legend-item.available {
+  color: var(--green);
+  border-color: var(--green);
+}
+.legend-item.selected {
+  background: var(--green);
+  color: white;
+}
+.legend-item.booked {
+  background: #ccc;
+  color: #555;
+}
