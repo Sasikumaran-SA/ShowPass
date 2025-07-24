@@ -27,14 +27,19 @@ Then open the local host url to view the website.
 ---
 
 ## Website preview
-Front page:\
-![Front Page 1](/images/image1.png)
-![Front Page 2](/images/image2.png)
-Movies page:\
-![Movies page](/images/image3.png)
-Theatre selection page:\
-![Theatre selection](/images/image4.png)
-Seat selection page:\
-![Seat selection](/images/image5.png)
-Sports page:\
-![Sports page](/images/image6.png)
+
+<p>Front page:</p>
+<img width="500" src="/images/image1.png" alt="Front Page 1">
+<img width="500" src="/images/image2.png" alt="Front Page 2">
+
+<p>Movies page:</p>
+<img width="500" src="/images/image3.png" alt="Movies page">
+
+<p>Theatre selection page:</p>
+<img width="500" src="/images/image4.png" alt="Theatre selection">
+
+<p>Seat selection page:</p>
+<img width="500" src="/images/image5.png" alt="Seat selection">
+
+<p>Sports page:</p>
+<img width="500" src="/images/image6.png" alt="Sports page">
