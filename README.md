@@ -1,18 +1,40 @@
 # ShowPass
+This is a React.Js based website model for the ticket booking application. Vite is the build tool that is used to build this website. This has only the frontend part of the web application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🧠 Built With
+- **HTML-CSS**
+- **React.Js**\
+Used npm version 10.9.2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔐 Setup
+1. Download this repository from github.
+```bash
+git clone https://github.com/Sasikumaran-SA/ShowPass.git
+cd ShowPass
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install node-modules.
+```bash
+npm install
+npm run dev
+```
+Then open the local host url to view the website.
 
-## External modules:
-Download font-awesome using:
-  - npm i --save @fortawesome/fontawesome-svg-core
-  - npm i --save @fortawesome/free-solid-svg-icons
-  - npm i --save @fortawesome/react-fontawesome@latest
+---
+
+## Website preview
+Front page:\
+![Front Page 1](/images/image1.png)
+![Front Page 2](/images/image2.png)
+Movies page:\
+![Movies page](/images/image3.png)
+Theatre selection page:\
+![Theatre selection](/images/image4.png)
+Seat selection page:\
+![Seat selection](/images/image5.png)
+Sports page:\
+![Sports page](/images/image6.png)
